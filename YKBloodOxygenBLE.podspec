@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YKBloodOxygenBLE'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of YKBloodOxygenBLE.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YKBloodOxygenBLE/Classes/**/*'
+  s.source_files = 'YKBloodOxygenBLE/Classes/*'
   
   # s.resource_bundles = {
   #   'YKBloodOxygenBLE' => ['YKBloodOxygenBLE/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'YKBloodOxygenBLE/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+#  s.source_files = "YKBLE.framework/Headers/**/*.h"
+#  s.public_header_files = "YKBloodOxygenBLE/Classes/YKBLE.framework/Headers/*.h"
+  s.vendored_frameworks = "YKBloodOxygenBLE/Classes/YKBLE.framework"
 end

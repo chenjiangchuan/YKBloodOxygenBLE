@@ -1,0 +1,16 @@
+PODS:
+  - YKBloodOxygenBLE (0.1.0)
+
+DEPENDENCIES:
+  - YKBloodOxygenBLE (from `../`)
+
+EXTERNAL SOURCES:
+  YKBloodOxygenBLE:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YKBloodOxygenBLE: 5b947a668874f7fa329d4e6cc48f19ed08a4c8fb
+
+PODFILE CHECKSUM: fb832812b4ac1ffbf614054dea8fe31e52e538e0
+
+COCOAPODS: 1.9.3

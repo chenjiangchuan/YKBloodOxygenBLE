@@ -1,0 +1,24 @@
+{
+  "name": "YKBloodOxygenBLE",
+  "version": "0.1.0",
+  "summary": "A short description of YKBloodOxygenBLE.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenjiangchuan/YKBloodOxygenBLE",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenjiangchuan": "jiangchuanc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chenjiangchuan/YKBloodOxygenBLE.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YKBloodOxygenBLE/Classes/*",
+  "public_header_files": "YKBloodOxygenBLE/Classes/*.h",
+  "vendored_frameworks": "YKBloodOxygenBLE/Classes/YKBLE.framework"
+}

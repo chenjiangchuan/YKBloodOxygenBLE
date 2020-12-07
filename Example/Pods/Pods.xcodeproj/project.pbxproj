@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B1C5D9A012D34802E36DFD1C70D99957 /* YKBloodOxygenBLE */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A100321C04ED311C576C74FF327FB39 /* Build configuration list for PBXAggregateTarget "YKBloodOxygenBLE" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = YKBloodOxygenBLE;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4F91D442BC1F1C43A86F76A31A0C557B /* Pods-YKBloodOxygenBLE_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A990263E57D3D16FAE74BF8E8D125A4 /* Pods-YKBloodOxygenBLE_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		521BA6896362BF6A7C1B8004842BCD26 /* Pods-YKBloodOxygenBLE_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC94130190EE3363E4CA69AB9AB8E0C /* Pods-YKBloodOxygenBLE_Tests-dummy.m */; };
+		5C93B9AF6D9F9976608720AFBA2395CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8EBE71EECB8FA85760832C173E861D24 /* Pods-YKBloodOxygenBLE_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D180FC1230DF73C166F88F6F54380614 /* Pods-YKBloodOxygenBLE_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F5A141EE5E0F091B201F8687532697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD8257668B62C659702C64630B52751A /* Pods-YKBloodOxygenBLE_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A238BC41768C56B26AE2A2D35801F19F /* Pods-YKBloodOxygenBLE_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22CAB1AB2A539DF851B447A70A1E7C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEC101D5F9581102F19686E98AB3E6B6;
+			remoteInfo = "Pods-YKBloodOxygenBLE_Example";
+		};
+		75DB638A3EBB68A8AD9B91B68E7DC157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1C5D9A012D34802E36DFD1C70D99957;
+			remoteInfo = YKBloodOxygenBLE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B47B8C4D5F315297336399CE09E087B /* Pods-YKBloodOxygenBLE_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKBloodOxygenBLE_Tests-Info.plist"; sourceTree = "<group>"; };
+		13ABB8A3BD91A3E7CC51CD3E1EDCBFD5 /* Pods-YKBloodOxygenBLE_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YKBloodOxygenBLE_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A990263E57D3D16FAE74BF8E8D125A4 /* Pods-YKBloodOxygenBLE_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKBloodOxygenBLE_Example-umbrella.h"; sourceTree = "<group>"; };
+		1E59DCA4AC75B5710A7EF32A6AF3F149 /* Pods_YKBloodOxygenBLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YKBloodOxygenBLE_Tests.framework; path = "Pods-YKBloodOxygenBLE_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A278DD315120026DA06911F3AEA4A5 /* YKBloodOxygenBLE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YKBloodOxygenBLE.release.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B01EFCD188E9DB402D3584B0BB1C3EF /* YKBloodOxygenBLE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YKBloodOxygenBLE.debug.xcconfig; sourceTree = "<group>"; };
+		469EC82840DBEB1097F73663051086E3 /* Pods-YKBloodOxygenBLE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKBloodOxygenBLE_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5FBFD6ED63EF585C3B1D4032AFADEF03 /* Pods-YKBloodOxygenBLE_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YKBloodOxygenBLE_Example.modulemap"; sourceTree = "<group>"; };
+		762198B16B763C38EEC176B3D7005827 /* YKBloodOxygenBLE.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YKBloodOxygenBLE.h; path = YKBloodOxygenBLE/Classes/YKBloodOxygenBLE.h; sourceTree = "<group>"; };
+		7A98A608C649A9FB6042597FE24C48E6 /* Pods_YKBloodOxygenBLE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YKBloodOxygenBLE_Example.framework; path = "Pods-YKBloodOxygenBLE_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A10C469C39F21AA8DB2286A380F566D /* Pods-YKBloodOxygenBLE_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YKBloodOxygenBLE_Tests.modulemap"; sourceTree = "<group>"; };
+		930F87BF30F448BA05F88975F7377220 /* Pods-YKBloodOxygenBLE_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKBloodOxygenBLE_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93FC0B6F6D4CDCD48B8280B300E35C90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9CC94130190EE3363E4CA69AB9AB8E0C /* Pods-YKBloodOxygenBLE_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YKBloodOxygenBLE_Tests-dummy.m"; sourceTree = "<group>"; };
+		9D88B045E060805B4802FC219F69F23E /* Pods-YKBloodOxygenBLE_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YKBloodOxygenBLE_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A238BC41768C56B26AE2A2D35801F19F /* Pods-YKBloodOxygenBLE_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YKBloodOxygenBLE_Example-dummy.m"; sourceTree = "<group>"; };
+		A2D3D5781546DF844649021F22BB2E40 /* Pods-YKBloodOxygenBLE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKBloodOxygenBLE_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A37919D7B4EC5122772EE37B042D4FC1 /* Pods-YKBloodOxygenBLE_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKBloodOxygenBLE_Example-Info.plist"; sourceTree = "<group>"; };
+		CC16714A165C615754FC3F580726D0C6 /* YKBLE.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YKBLE.framework; path = YKBloodOxygenBLE/Classes/YKBLE.framework; sourceTree = "<group>"; };
+		D180FC1230DF73C166F88F6F54380614 /* Pods-YKBloodOxygenBLE_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YKBloodOxygenBLE_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DF684D0A57BA09946DA86BE0B8B4D6E4 /* Pods-YKBloodOxygenBLE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKBloodOxygenBLE_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		EC375C51DEC498E69F58F2FBDD445A98 /* YKBloodOxygenBLE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YKBloodOxygenBLE.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ED19A9BEBFE899C04B666B20691FCEC5 /* Pods-YKBloodOxygenBLE_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YKBloodOxygenBLE_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F43D9E78126804C972438DC82F65FF7F /* Pods-YKBloodOxygenBLE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YKBloodOxygenBLE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F82C9D26642807C80D21DEA210AA4F19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58A68C07732A3B058C67EF72745E9D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C93B9AF6D9F9976608720AFBA2395CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943ED5253FF0C0B85BD0CC0A4B2FB277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F5A141EE5E0F091B201F8687532697 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2733F0D1A2A23397155EB0FF8C74FC76 /* Pods-YKBloodOxygenBLE_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5FBFD6ED63EF585C3B1D4032AFADEF03 /* Pods-YKBloodOxygenBLE_Example.modulemap */,
+				9D88B045E060805B4802FC219F69F23E /* Pods-YKBloodOxygenBLE_Example-acknowledgements.markdown */,
+				ED19A9BEBFE899C04B666B20691FCEC5 /* Pods-YKBloodOxygenBLE_Example-acknowledgements.plist */,
+				A238BC41768C56B26AE2A2D35801F19F /* Pods-YKBloodOxygenBLE_Example-dummy.m */,
+				A37919D7B4EC5122772EE37B042D4FC1 /* Pods-YKBloodOxygenBLE_Example-Info.plist */,
+				1A990263E57D3D16FAE74BF8E8D125A4 /* Pods-YKBloodOxygenBLE_Example-umbrella.h */,
+				DF684D0A57BA09946DA86BE0B8B4D6E4 /* Pods-YKBloodOxygenBLE_Example.debug.xcconfig */,
+				469EC82840DBEB1097F73663051086E3 /* Pods-YKBloodOxygenBLE_Example.release.xcconfig */,
+			);
+			name = "Pods-YKBloodOxygenBLE_Example";
+			path = "Target Support Files/Pods-YKBloodOxygenBLE_Example";
+			sourceTree = "<group>";
+		};
+		42AFC2A0A2DEED57FBAC3576C1905A89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC16714A165C615754FC3F580726D0C6 /* YKBLE.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4998485F59437C9CA55D2E9704F57E2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F82C9D26642807C80D21DEA210AA4F19 /* LICENSE */,
+				93FC0B6F6D4CDCD48B8280B300E35C90 /* README.md */,
+				EC375C51DEC498E69F58F2FBDD445A98 /* YKBloodOxygenBLE.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4FE99BFA1F031F34D2A2761C10444CF9 /* YKBloodOxygenBLE */ = {
+			isa = PBXGroup;
+			children = (
+				762198B16B763C38EEC176B3D7005827 /* YKBloodOxygenBLE.h */,
+				42AFC2A0A2DEED57FBAC3576C1905A89 /* Frameworks */,
+				4998485F59437C9CA55D2E9704F57E2B /* Pod */,
+				DBB6F528BF234274E986ECEEB54AFE15 /* Support Files */,
+			);
+			name = YKBloodOxygenBLE;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A2D102E17727A94AD10573855D120AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A98A608C649A9FB6042597FE24C48E6 /* Pods_YKBloodOxygenBLE_Example.framework */,
+				1E59DCA4AC75B5710A7EF32A6AF3F149 /* Pods_YKBloodOxygenBLE_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA5204C5986FBC6F530AE700262C69DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FE99BFA1F031F34D2A2761C10444CF9 /* YKBloodOxygenBLE */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CA5204C5986FBC6F530AE700262C69DC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A2D102E17727A94AD10573855D120AD2 /* Products */,
+				DAFA680B62A96330C3F5E0B3A0E376EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAFA680B62A96330C3F5E0B3A0E376EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2733F0D1A2A23397155EB0FF8C74FC76 /* Pods-YKBloodOxygenBLE_Example */,
+				E78F5C883B792D6081DA1958BF6E3B2B /* Pods-YKBloodOxygenBLE_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DBB6F528BF234274E986ECEEB54AFE15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B01EFCD188E9DB402D3584B0BB1C3EF /* YKBloodOxygenBLE.debug.xcconfig */,
+				20A278DD315120026DA06911F3AEA4A5 /* YKBloodOxygenBLE.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YKBloodOxygenBLE";
+			sourceTree = "<group>";
+		};
+		E78F5C883B792D6081DA1958BF6E3B2B /* Pods-YKBloodOxygenBLE_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A10C469C39F21AA8DB2286A380F566D /* Pods-YKBloodOxygenBLE_Tests.modulemap */,
+				13ABB8A3BD91A3E7CC51CD3E1EDCBFD5 /* Pods-YKBloodOxygenBLE_Tests-acknowledgements.markdown */,
+				930F87BF30F448BA05F88975F7377220 /* Pods-YKBloodOxygenBLE_Tests-acknowledgements.plist */,
+				9CC94130190EE3363E4CA69AB9AB8E0C /* Pods-YKBloodOxygenBLE_Tests-dummy.m */,
+				0B47B8C4D5F315297336399CE09E087B /* Pods-YKBloodOxygenBLE_Tests-Info.plist */,
+				D180FC1230DF73C166F88F6F54380614 /* Pods-YKBloodOxygenBLE_Tests-umbrella.h */,
+				F43D9E78126804C972438DC82F65FF7F /* Pods-YKBloodOxygenBLE_Tests.debug.xcconfig */,
+				A2D3D5781546DF844649021F22BB2E40 /* Pods-YKBloodOxygenBLE_Tests.release.xcconfig */,
+			);
+			name = "Pods-YKBloodOxygenBLE_Tests";
+			path = "Target Support Files/Pods-YKBloodOxygenBLE_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46A302AE7194A30CADA8688BEE7935FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F91D442BC1F1C43A86F76A31A0C557B /* Pods-YKBloodOxygenBLE_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E823856D6960811A21491929D12EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBE71EECB8FA85760832C173E861D24 /* Pods-YKBloodOxygenBLE_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E1C91A68368A8E6D6C2540B90206E4BD /* Pods-YKBloodOxygenBLE_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 349E4C1E55C5C3A59B5C3AA4F592A919 /* Build configuration list for PBXNativeTarget "Pods-YKBloodOxygenBLE_Tests" */;
+			buildPhases = (
+				D13E823856D6960811A21491929D12EC /* Headers */,
+				169F00C60EC76C23A8A280CE060F170B /* Sources */,
+				943ED5253FF0C0B85BD0CC0A4B2FB277 /* Frameworks */,
+				A91736D1CBEB275FAF90ED5E270D33DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E0EF822B8E9B5B6A3AE7855AB5BFEDF /* PBXTargetDependency */,
+			);
+			name = "Pods-YKBloodOxygenBLE_Tests";
+			productName = "Pods-YKBloodOxygenBLE_Tests";
+			productReference = 1E59DCA4AC75B5710A7EF32A6AF3F149 /* Pods_YKBloodOxygenBLE_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FEC101D5F9581102F19686E98AB3E6B6 /* Pods-YKBloodOxygenBLE_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51EDA3368D432489A2AC23CFC5651518 /* Build configuration list for PBXNativeTarget "Pods-YKBloodOxygenBLE_Example" */;
+			buildPhases = (
+				46A302AE7194A30CADA8688BEE7935FA /* Headers */,
+				E78946B128756FD3B008F4BC1966DD5B /* Sources */,
+				58A68C07732A3B058C67EF72745E9D71 /* Frameworks */,
+				18C1B47D33EDF466DAE8DB3DA96C1124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D703D8781624848FC230D3765968FB5E /* PBXTargetDependency */,
+			);
+			name = "Pods-YKBloodOxygenBLE_Example";
+			productName = "Pods-YKBloodOxygenBLE_Example";
+			productReference = 7A98A608C649A9FB6042597FE24C48E6 /* Pods_YKBloodOxygenBLE_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A2D102E17727A94AD10573855D120AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC101D5F9581102F19686E98AB3E6B6 /* Pods-YKBloodOxygenBLE_Example */,
+				E1C91A68368A8E6D6C2540B90206E4BD /* Pods-YKBloodOxygenBLE_Tests */,
+				B1C5D9A012D34802E36DFD1C70D99957 /* YKBloodOxygenBLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C1B47D33EDF466DAE8DB3DA96C1124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91736D1CBEB275FAF90ED5E270D33DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169F00C60EC76C23A8A280CE060F170B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521BA6896362BF6A7C1B8004842BCD26 /* Pods-YKBloodOxygenBLE_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E78946B128756FD3B008F4BC1966DD5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8257668B62C659702C64630B52751A /* Pods-YKBloodOxygenBLE_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E0EF822B8E9B5B6A3AE7855AB5BFEDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YKBloodOxygenBLE_Example";
+			target = FEC101D5F9581102F19686E98AB3E6B6 /* Pods-YKBloodOxygenBLE_Example */;
+			targetProxy = 22CAB1AB2A539DF851B447A70A1E7C6A /* PBXContainerItemProxy */;
+		};
+		D703D8781624848FC230D3765968FB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YKBloodOxygenBLE;
+			target = B1C5D9A012D34802E36DFD1C70D99957 /* YKBloodOxygenBLE */;
+			targetProxy = 75DB638A3EBB68A8AD9B91B68E7DC157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0472310E073FE27C7C37F6AC45B4EB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469EC82840DBEB1097F73663051086E3 /* Pods-YKBloodOxygenBLE_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		62F9BC3BECB680DD622588FEDD0325BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F43D9E78126804C972438DC82F65FF7F /* Pods-YKBloodOxygenBLE_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Tests/Pods-YKBloodOxygenBLE_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Tests/Pods-YKBloodOxygenBLE_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69BCEDAEEF99CACB184512654351B921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF684D0A57BA09946DA86BE0B8B4D6E4 /* Pods-YKBloodOxygenBLE_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C0E1107A84D6571240B213D2710B013D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D3D5781546DF844649021F22BB2E40 /* Pods-YKBloodOxygenBLE_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Tests/Pods-YKBloodOxygenBLE_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YKBloodOxygenBLE_Tests/Pods-YKBloodOxygenBLE_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB5400BCC8D11FD91FE2EACB744774F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B01EFCD188E9DB402D3584B0BB1C3EF /* YKBloodOxygenBLE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE02B28905E432F03266C5CB5D5CE2BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20A278DD315120026DA06911F3AEA4A5 /* YKBloodOxygenBLE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		349E4C1E55C5C3A59B5C3AA4F592A919 /* Build configuration list for PBXNativeTarget "Pods-YKBloodOxygenBLE_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F9BC3BECB680DD622588FEDD0325BF /* Debug */,
+				C0E1107A84D6571240B213D2710B013D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A100321C04ED311C576C74FF327FB39 /* Build configuration list for PBXAggregateTarget "YKBloodOxygenBLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5400BCC8D11FD91FE2EACB744774F6 /* Debug */,
+				DE02B28905E432F03266C5CB5D5CE2BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51EDA3368D432489A2AC23CFC5651518 /* Build configuration list for PBXNativeTarget "Pods-YKBloodOxygenBLE_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69BCEDAEEF99CACB184512654351B921 /* Debug */,
+				0472310E073FE27C7C37F6AC45B4EB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

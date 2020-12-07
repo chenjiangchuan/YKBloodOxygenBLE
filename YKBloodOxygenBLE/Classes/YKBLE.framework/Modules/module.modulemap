@@ -1,0 +1,6 @@
+framework module YKBLE {
+  umbrella header "YKBLE.h"
+
+  export *
+  module * { export * }
+}

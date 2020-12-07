@@ -58,14 +58,14 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72C732632CF4DE6F09D44F1D /* Pods-YKBloodOxygenBLE_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKBloodOxygenBLE_Example.release.xcconfig"; path = "Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7AB32C4B7164B19591A6784C /* YKBloodOxygenBLE.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YKBloodOxygenBLE.podspec; path = ../YKBloodOxygenBLE.podspec; sourceTree = "<group>"; };
+		7AB32C4B7164B19591A6784C /* YKBloodOxygenBLE.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YKBloodOxygenBLE.podspec; path = ../YKBloodOxygenBLE.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AE7CB23141E08137B3478C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8AE7CB23141E08137B3478C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9202A8CC6B9C30FA7FA9AD78 /* Pods-YKBloodOxygenBLE_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKBloodOxygenBLE_Example.debug.xcconfig"; path = "Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A6FF391F929B7DAAC5F7A7DD /* Pods-YKBloodOxygenBLE_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKBloodOxygenBLE_Tests.release.xcconfig"; path = "Target Support Files/Pods-YKBloodOxygenBLE_Tests/Pods-YKBloodOxygenBLE_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A743F3EAED00A6BF64DA6CBF /* Pods_YKBloodOxygenBLE_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKBloodOxygenBLE_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD11C0529B4DFB06BBF08FC9 /* Pods_YKBloodOxygenBLE_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YKBloodOxygenBLE_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0DC64F55A158867BFDB8F57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E0DC64F55A158867BFDB8F57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FC93E4A484E7067C3ECEADFF /* Pods-YKBloodOxygenBLE_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YKBloodOxygenBLE_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YKBloodOxygenBLE_Tests/Pods-YKBloodOxygenBLE_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				FC93E4A484E7067C3ECEADFF /* Pods-YKBloodOxygenBLE_Tests.debug.xcconfig */,
 				A6FF391F929B7DAAC5F7A7DD /* Pods-YKBloodOxygenBLE_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				700DD0898288D7893D1D40BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chenjiangchuan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 26739ZC4WY;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		700DD0898288D7893D1D40BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YKBloodOxygenBLE/YKBloodOxygenBLE.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YKBloodOxygenBLE.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YKBloodOxygenBLE_Example/Pods-YKBloodOxygenBLE_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		975E51E878510864B0725A05 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +478,7 @@
 			baseConfigurationReference = 9202A8CC6B9C30FA7FA9AD78 /* Pods-YKBloodOxygenBLE_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26739ZC4WY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YKBloodOxygenBLE/YKBloodOxygenBLE-Prefix.pch";
 				INFOPLIST_FILE = "YKBloodOxygenBLE/YKBloodOxygenBLE-Info.plist";
@@ -510,6 +495,7 @@
 			baseConfigurationReference = 72C732632CF4DE6F09D44F1D /* Pods-YKBloodOxygenBLE_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 26739ZC4WY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YKBloodOxygenBLE/YKBloodOxygenBLE-Prefix.pch";
 				INFOPLIST_FILE = "YKBloodOxygenBLE/YKBloodOxygenBLE-Info.plist";

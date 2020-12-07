@@ -1,0 +1,6 @@
+framework module Pods_YKBloodOxygenBLE_Tests {
+  umbrella header "Pods-YKBloodOxygenBLE_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

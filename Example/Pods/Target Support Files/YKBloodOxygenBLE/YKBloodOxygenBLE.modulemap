@@ -1,0 +1,6 @@
+framework module YKBloodOxygenBLE {
+  umbrella header "YKBloodOxygenBLE-umbrella.h"
+
+  export *
+  module * { export * }
+}
